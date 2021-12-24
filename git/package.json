@@ -1,0 +1,15 @@
+{
+  "name": "git",
+  "version": "1.0.0",
+  "description": "Projeto exemplo para utilização de git com desenvolvimento de blockchain simples em js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pedro Luís Ferronato Barreto",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
