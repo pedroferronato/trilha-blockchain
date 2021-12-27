@@ -16,6 +16,10 @@ Este repositório tem como objeto registrar as práticas e projetos desenvolvido
     - Fundamentos
     - Arrays
     - Objetos
+    - Curso em vídeo - Fundamentos
+  - Node.js
+    - HTTP
+    - REST com Node.js: API com Express e MySQL
 
 ## Detalhes sobre cada módulo
 ---
