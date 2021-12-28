@@ -12,4 +12,8 @@ module.exports = app => {
     app.post('/atendimentos', (req, res) => {
         Atendimento.adicionar(req.body, res)
     })
+
+    app.patch('/atendimentos/:id', (req, res) => {
+        Atendimento.alterar(res, req.body, Number(req.params.id))
+    })
 }

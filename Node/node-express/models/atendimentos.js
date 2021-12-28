@@ -66,6 +66,22 @@ class Atendimento {
             }
         })
     }
+
+    alterar(res, atendimento, id) {
+        const sql = 'UPDATE atendimentos SET ? WHERE id = ?'
+
+        if (atendimento.data) {
+            atendimento.data = moment(atendimento.data, 'DD/MM/YYYY').format('YYYY-MM-DD HH:mm:ss')
+        }
+
+        conexao.query(sql, [atendimento, id], (erro, result) => {
+            if (erro) {
+                res.status(400).json(erro)
+            } else {
+                res.status(200).json(result)
+            }
+        })
+    }
 }
 
 module.exports = new Atendimento
