@@ -8,7 +8,8 @@ module.exports = app => {
             Atendimento.adicionar(req.body)
         } catch (error) {
             console.log(error);
+            return res.status(400).send(error)
         }
-        res.status(200).send('Atendimento registrado com sucesso')
+        return res.status(201).send('Atendimento registrado com sucesso')
     })
 }
