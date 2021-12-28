@@ -16,4 +16,8 @@ module.exports = app => {
     app.patch('/atendimentos/:id', (req, res) => {
         Atendimento.alterar(res, req.body, Number(req.params.id))
     })
+
+    app.delete('/atendimentos/:id', (req, res) => {
+        Atendimento.excluir(res, Number(req.params.id))
+    })
 }
