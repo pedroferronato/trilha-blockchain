@@ -20,6 +20,7 @@ Este repositório tem como objeto registrar as práticas e projetos desenvolvido
   - Node.js
     - HTTP
     - REST com Node.js: API com Express e MySQL
+    - NodeJS: Streaming de dados e Ropositório
 
 ## Detalhes sobre cada módulo
 ---
