@@ -22,3 +22,27 @@ Após a instalação, acesse a pasta do arquivo e execute:
 ```bash
 npm start
 ```
+
+## MySQL - Conexões
+---
+Os arquivos de configuração de conexão ao banco de dados são:
+
+- .env - para o projeto __node-express__
+- config/config.json - para o projeto __orm-sequelize__
+
+É necessário criar estes arquisvos, existindo arquivos exemplo (.env.example e config-examples.json) para nortear o preenchimento dos arquivos em seu ambiente.
+
+## ORM - Migrações
+---
+
+O projeto __orm_sequelize__ depende do processo de migração, para realiza-la execute os seguintes comandos na pasta do projeto:
+
+```bash
+npx sequelize-cli db:migrate
+```
+
+Em sequência execute o processo de seeding: 
+
+```bash
+npx sequelize-cli db:seed:all
+```
