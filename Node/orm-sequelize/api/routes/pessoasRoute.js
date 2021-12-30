@@ -3,14 +3,22 @@ const PessoaController = require('../controllers/PessoaController')
 
 const router = Router()
 
-router.get('/', PessoaController.selectAllPessoas)
+router.get('/pessoas/', PessoaController.selectAllPessoas)
 
-router.get('/:id', PessoaController.selectByIdPessoa)
+router.get('/pessoas/:id', PessoaController.selectByIdPessoa)
 
-router.post('/', PessoaController.insertPessoa)
+router.post('/pessoas/', PessoaController.insertPessoa)
 
-router.put('/:id', PessoaController.updatePessoa)
+router.put('/pessoas/:id', PessoaController.updatePessoa)
 
-router.delete('/:id', PessoaController.deletePessoa)
+router.delete('/pessoas/:id', PessoaController.deletePessoa)
+
+router.get('/pessoas/:estudanteId/matricula/:matriculaId', PessoaController.selectMatricula)
+
+router.post('/pessoas/:id/matricula', PessoaController.insertMatricula)
+
+router.put('/pessoas/:estudanteId/matricula/:matriculaId', PessoaController.updateMatricula)
+
+router.delete('/pessoas/:estudanteId/matricula/:matriculaId', PessoaController.deleteMatricula)
 
 module.exports = router
