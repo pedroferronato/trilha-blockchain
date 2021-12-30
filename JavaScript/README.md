@@ -1,6 +1,6 @@
 # Fundamentos de JavaScript - Alura
 
-Este arquivo é dedicado à prática das atividades e testes dos cursos:
+Esta pasta é dedicada à prática das atividades e testes dos cursos:
 
 - Fundamentos do JavaScript: Tipos, variáveis e funções.
 - Fundamentos do JavaScript: Arrays
@@ -9,7 +9,7 @@ Este arquivo é dedicado à prática das atividades e testes dos cursos:
 ## Arquivos
 ---
 
-Os arquivos não seguem diretamente os arquivoos produzidos nos cursos, ou seja, alguns conteúdos dispostos em mais de um arquivo aqui foram agrupados em um único a fim de comparação.
+Os arquivos não seguem diretamente os arquivos produzidos nos cursos, ou seja, alguns conteúdos dispostos em mais de um arquivo aqui foram agrupados em um único a fim de comparação.
 
 ### Faça como eu fiz
 
