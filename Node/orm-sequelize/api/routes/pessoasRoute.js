@@ -9,4 +9,8 @@ router.get('/:id', PessoaController.selectByIdPessoa)
 
 router.post('/', PessoaController.insertPessoa)
 
+router.put('/:id', PessoaController.updatePessoa)
+
+router.delete('/:id', PessoaController.deletePessoa)
+
 module.exports = router
