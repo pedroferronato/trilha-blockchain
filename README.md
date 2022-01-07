@@ -26,4 +26,8 @@ Este repositório tem como objeto registrar as práticas e projetos desenvolvido
 ## Detalhes sobre cada módulo
 ---
 
-Cada módulo disposto neste repositório pode ser considerado um repositório por si só, sendo assim, cada pasta detém os detalhes referentes aos motivos, instalação e execução de cada projeto
+Cada módulo disposto neste repositório pode ser considerado um repositório por si só, sendo assim, cada pasta detém os detalhes referentes aos motivos, instalação e execução de cada projeto.
+
+## Desafios
+
+Desafios adicionais foram realizados para aprimoramento dos conhecimentos, para conferir, acesse o [repositório dedicado](https://github.com/pedroferronato/node-desafios).
