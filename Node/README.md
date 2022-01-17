@@ -5,6 +5,12 @@ Esta pasta é dedicada à prática das atividades e testes dos cursos:
 - REST com NodeJS: API com Express e MySQL
 - NodeJS: Streaming de dados e Repositório
 - ORM com NodeJS: API com Sequelize e MySQL
+- NodeJS => Introdução, funções, variaveis, async/await, json,express, crud
+- NodeJS + express
+  - Task Manager
+  - Stores API
+  - JWT Basics (Incompleto apenas arquivos iniciais)
+  - Jobs API (Incompleto apenas arquivos iniciais)
 
 ## Executando os arquivos
 ---
@@ -45,4 +51,15 @@ Em sequência execute o processo de seeding:
 
 ```bash
 npx sequelize-cli db:seed:all
+```
+
+## MONGO
+---
+
+Os projetos, __03-task-manager__ e __04-store-api__ fazem uso de base de dados mongo, para conexão, é necessário criar arquivo .env com o atributo __MONGO_URI__ contendo o link para sua base de dados.
+
+O projeto __04-store-api__ possui arquivo para seeding da base de dados, execute o comando a seguir na pasta raiz do projeto:
+
+```bash
+node populate.js
 ```
