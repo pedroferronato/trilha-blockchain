@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "bilhete-smart-contract",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
