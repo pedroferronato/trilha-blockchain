@@ -13,12 +13,12 @@ class BilheteContract extends Contract {
         return (!!buffer && buffer.length > 0);
     }
 
-    async createBilhete(ctx, bilheteId, value) {
+    async createBilhete(ctx, bilheteId, value, number) {
         const exists = await this.bilheteExists(ctx, bilheteId);
         if (exists) {
             throw new Error(`The bilhete ${bilheteId} already exists`);
         }
-        const asset = { value };
+        const asset = { value, number };
         const buffer = Buffer.from(JSON.stringify(asset));
         await ctx.stub.putState(bilheteId, buffer);
     }
@@ -33,12 +33,12 @@ class BilheteContract extends Contract {
         return asset;
     }
 
-    async updateBilhete(ctx, bilheteId, newValue) {
+    async updateBilhete(ctx, bilheteId, newValue, newNumber) {
         const exists = await this.bilheteExists(ctx, bilheteId);
         if (!exists) {
             throw new Error(`The bilhete ${bilheteId} does not exist`);
         }
-        const asset = { value: newValue };
+        const asset = { value: newValue, number: newNumber };
         const buffer = Buffer.from(JSON.stringify(asset));
         await ctx.stub.putState(bilheteId, buffer);
     }
