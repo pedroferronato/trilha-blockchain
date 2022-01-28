@@ -22,6 +22,13 @@ Este repositório tem como objeto registrar as práticas e projetos desenvolvido
     - REST com Node.js: API com Express e MySQL
     - NodeJS: Streaming de dados e Ropositório
     - ORM com NodeJS: API com Sequelize e MySQL
+- Módulo 3 - Blockchain na prática
+- Módulo 4 - Aprofundando Blockchain
+  - Como funciona o blockchain 
+  - Blockchain e aplicações
+  - Usando em uma aplicação
+  - Conceitos chave Hyperledger
+  - Tutorial e Demo Blockchain 
 
 ## Detalhes sobre cada módulo
 ---
